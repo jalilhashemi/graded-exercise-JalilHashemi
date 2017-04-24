@@ -2,9 +2,9 @@
 
 ## Commit Proposal
 
-Matrikel Number: <to be filled by student>
+Matriculation Number: <15-650-591>
 
-Project idea short description:
+Project idea short description: Socrative-light
 
 
 ## Project confirmation
