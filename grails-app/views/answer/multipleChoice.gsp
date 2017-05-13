@@ -8,6 +8,7 @@
 <div>
     Multiple choice
     <g:each var="answer" in="${answers}"></g:each>
+    ${answers.a}
 </div>
 
 <div>
