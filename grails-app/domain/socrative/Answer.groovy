@@ -2,15 +2,14 @@ package socrative
 
 class Answer {
 
-    static question =[question: Question]
+    String a
 
-    static answer = [answer: PossibleAnswer]
 
     static constraints = {
-        possibleAnswer(nullable: false, blank: false)
+        a(nullable: false, blank: false, size: 2..50)
     }
 
     String toString(){
-        return question + "\\n" + answer;
+        return a
     }
 }
