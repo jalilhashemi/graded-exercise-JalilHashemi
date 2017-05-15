@@ -2,6 +2,6 @@ package socrative
 
 class QuestionController {
 
-    //def scaffold = Question
+    def scaffold = Question
 
 }

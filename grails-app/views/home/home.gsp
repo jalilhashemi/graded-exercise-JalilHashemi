@@ -41,7 +41,7 @@
 <body>
     <header>Welcome to Socrative</header>
     <div id="form">
-            <form action="/question/index">
+            <form action="/quizReport/index">
                 <input type="submit" id="teacher" value="TEACHER" />
             </form>
             <form action="/answer/index">
