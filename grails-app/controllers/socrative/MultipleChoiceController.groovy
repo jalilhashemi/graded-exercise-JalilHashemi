@@ -4,10 +4,10 @@ class MultipleChoiceController {
 
 
     def answering() {
-        render view:"answering", model:[multipleChoice: Answer.list()]
+
+        render view: "answering", model: [questionView: Question.list(), multipleChoice: Answer.list()]
+
     }
 
+
 }
-
-
-

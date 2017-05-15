@@ -27,7 +27,7 @@
         padding: 0.5em;
         font-size: 4em;
     }
-    body{
+    body {
         margin: 0%;
         background: #8bbed9;
     }
