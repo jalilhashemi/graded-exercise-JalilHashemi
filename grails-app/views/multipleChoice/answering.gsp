@@ -26,7 +26,6 @@
                 background: #4490c2;
                 display: table;
                 padding: 5px;
-
                 padding-left:5px;
                 width:800px;
             }

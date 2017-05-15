@@ -44,7 +44,7 @@
     <form action="/question/create">
         <input type="submit" id="quiz" value="QUIZ" />
     </form>
-    <form action="/answer/index">
+    <form action="/report/result">
         <input type="submit" id="report" value="REPORT" />
     </form>
 </div>
