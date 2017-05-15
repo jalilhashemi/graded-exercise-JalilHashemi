@@ -44,7 +44,7 @@
             <form action="/quizReport/index">
                 <input type="submit" id="teacher" value="TEACHER" />
             </form>
-            <form action="/answer/index">
+            <form action="/multipleChoice/answering">
                 <input type="submit" id="student" value="STUDENT" />
             </form>
     </div>
