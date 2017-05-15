@@ -77,6 +77,13 @@ img {
     border-bottom: 1px solid #CCCCCC;
     margin: 0.8em 1em 0.3em;
     padding: 0 0.25em;
+    color: white;
+    font-size: 2em;
+
+    /*background-color: white;*/
+    /*text-align: center;*/
+    /*padding: 0.5em;*/
+    /*font-size: 4em;*/
 }
 
 .scaffold-list h1 {
@@ -491,16 +498,16 @@ th:hover, tr:hover {
 
 /* ACTION BUTTONS */
 
-.buttons {
-    background-color: #efefef;
-    overflow: hidden;
-    padding: 0.3em;
-    -moz-box-shadow: 0 0 3px 1px #aaaaaa;
-    -webkit-box-shadow: 0 0 3px 1px #aaaaaa;
-    box-shadow: 0 0 3px 1px #aaaaaa;
-    margin: 0.1em 0 0 0;
-    border: none;
-}
+/*.buttons {*/
+    /*background-color: #efefef;*/
+    /*overflow: hidden;*/
+    /*padding: 0.3em;*/
+    /*-moz-box-shadow: 0 0 3px 1px #aaaaaa;*/
+    /*-webkit-box-shadow: 0 0 3px 1px #aaaaaa;*/
+    /*box-shadow: 0 0 3px 1px #aaaaaa;*/
+    /*margin: 0.1em 0 0 0;*/
+    /*border: none;*/
+/*}*/
 
 .buttons input,
 .buttons a {
