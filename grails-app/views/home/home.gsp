@@ -12,6 +12,9 @@
             font-size: 2em;
             background: #da7f2f;
         }
+        #teacher:hover {
+            background: border-box;
+        }
 
         #student {
             color: white;
@@ -20,6 +23,9 @@
             margin: 2em 0em 0em 0em;
             font-size: 2em;
             background: #4490c2;
+        }
+        #student:hover {
+            background: border-box;
         }
         header {
             background-color: white;

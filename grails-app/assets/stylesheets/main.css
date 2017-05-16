@@ -150,7 +150,7 @@ img {
 }
 
 .nav a:focus, .nav a:hover {
-    background-color: #999999;
+    background-color: #da7f2f;
     color: #ffffff;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
@@ -530,7 +530,7 @@ th:hover, tr:hover {
 
 .buttons input:hover, .buttons input:focus,
 .buttons a:hover, .buttons a:focus {
-    background-color: #999999;
+    background-color: #da7f2f;
     color: #ffffff;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
