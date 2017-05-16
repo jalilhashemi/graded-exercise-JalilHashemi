@@ -75,7 +75,7 @@ img {
 
 .content h1 {
     border-bottom: 1px solid #CCCCCC;
-    margin: 0.8em 1em 0.3em;
+    margin: 1em 1em 0.2em 1em;
     padding: 0 0.25em;
     color: white;
     font-size: 2em;
@@ -166,6 +166,7 @@ img {
     background-position: 0.7em center;
     background-repeat: no-repeat;
     text-indent: 25px;
+    margin: 0 0 2em 2em;
 }
 
 .nav a.home {
@@ -209,7 +210,7 @@ fieldset,
 .fieldcontain .property-label {
     color: #666666;
     text-align: right;
-    width: 25%;
+    /*width: 25%;*/
 }
 
 .fieldcontain .property-label {
@@ -243,8 +244,8 @@ select[multiple] {
 }
 
 textarea {
-    width: 250px;
-    height: 150px;
+    width: 500px;
+    height: 200px;
     overflow: auto; /* IE always renders vertical scrollbar without this */
     vertical-align: top;
 }
@@ -365,6 +366,7 @@ input:invalid, select:invalid, textarea:invalid {
     background: #fff3f3;
     border-color: #ffaaaa;
     color: #cc0000;
+    width: 500px;
 }
 
 input:invalid:focus, select:invalid:focus, textarea:invalid:focus {
