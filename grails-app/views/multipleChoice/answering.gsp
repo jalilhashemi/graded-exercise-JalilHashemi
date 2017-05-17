@@ -1,15 +1,10 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <meta name="layout" content="main" />
         <meta charset="UTF-8"/>
         <title>multipleChoice</title>
         <style>
-            header {
-                background-color: white;
-                text-align: center;
-                padding: 0.5em;
-                font-size: 4em;
-            }
             body {
                 margin: 0%;
                 background: #8bbed9;

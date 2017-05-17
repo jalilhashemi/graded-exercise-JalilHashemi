@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <meta name="layout" content="main" />
     <meta charset="UTF-8"/>
     <title>result</title>
     <style>
-    header {
-        background-color: white;
-        text-align: center;
-        padding: 0.5em;
-        font-size: 4em;
-    }
     body {
         margin: 0%;
         background: #8bbed9;
     }
+
+    html, body {height:100%;}
+    html {display:table; margin: auto}
+    body {display:table-cell; text-align:center; vertical-align:middle;}
+
+
     form {
         font-size: 2em;
         margin: 2em;

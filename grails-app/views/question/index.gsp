@@ -9,9 +9,9 @@
 
 
 
-    <a href="#create-question" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+    <a href="#index-question" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 
-    <div id="create-question" class="content scaffold-create" role="main">
+    <div id="index-question" class="content scaffold-create" role="main">
         <h1>Question List</h1>
 
 

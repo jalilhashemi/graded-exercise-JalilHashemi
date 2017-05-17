@@ -24,12 +24,12 @@
                     <label for="questionerName">Questioner Name
                         <span class="required-indicator">*</span>
                     </label><br>
-                    <input type="text" name="questionerName" value="" required="" maxlength="50" id="questionerName">
+                    <input type="text" name="questionerName" value="" required="" minlength="5" maxlength="50" id="questionerName">
                 </div><div class="fieldcontain required">
                 <label for="question">Question
                     <span class="required-indicator">*</span>
                 </label><br>
-                <textarea name="question"  required="" maxlength="500" id="question">Please write your question here</textarea>
+                <textarea name="question"  required="" minlength="20" maxlength="500" id="question"></textarea>
             </div>
             </fieldset>
             <fieldset class="buttons">

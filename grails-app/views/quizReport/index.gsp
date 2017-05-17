@@ -1,38 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <meta name="layout" content="main" />
     <meta charset="UTF-8"/>
     <title>quizReport</title>
     <style>
-        #quiz {
-            color: white;
-            width: 15em;
-            height: 3em;
-            margin: 3em 0em 0em 0em;
-            font-size: 2em;
-            background: #da7f2f;
-        }
-        #quiz:hover {
-            background: border-box;
-        }
 
-        #report {
-            color: white;
-            width: 15em;
-            height: 3em;
-            margin: 2em 0em 0em 0em;
-            font-size: 2em;
-            background: #da7f2f;
-        }
-        #report:hover {
-            background: border-box;
-        }
-        header {
-            background-color: white;
-            text-align: center;
-            padding: 0.5em;
-            font-size: 4em;
-        }
+
         body {
             margin: 0%;
             background: #8bbed9;

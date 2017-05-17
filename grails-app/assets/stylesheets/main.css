@@ -32,6 +32,13 @@ html * {
     margin: 0;
 }
 
+header {
+    background-color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 2em;
+}
+
 body {
     background: #8bbed9;
     /*color: #333333;*/
@@ -150,7 +157,7 @@ img {
 }
 
 .nav a:focus, .nav a:hover {
-    background-color: #da7f2f;
+    background-color: #ff9737;
     color: #ffffff;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
@@ -530,7 +537,7 @@ th:hover, tr:hover {
 
 .buttons input:hover, .buttons input:focus,
 .buttons a:hover, .buttons a:focus {
-    background-color: #da7f2f;
+    background-color: #ff9737;
     color: #ffffff;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
@@ -580,4 +587,59 @@ a.skip {
 img.grails-logo {
     height:340px;
     margin-top:-10px;
+}
+
+
+#teacher{
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 5em 0em 0em 0em;
+    font-size: 2em;
+    background: #da7f2f;
+}
+#teacher:hover {
+    background: border-box;
+    background: #ff9737;
+}
+
+
+#quiz{
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 5em 0em 0em 0em;
+    font-size: 2em;
+    background: #da7f2f;
+}
+#quiz:hover {
+    background: border-box;
+    background: #ff9737;
+}
+
+
+#student {
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 2em 0em 0em 0em;
+    font-size: 2em;
+    background: #4490c2;
+}
+#student:hover {
+    background: border-box;
+    background: #58b0f0;
+}
+#report {
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 2em 0em 0em 0em;
+    font-size: 2em;
+    background: #da7f2f;
+}
+
+#report:hover {
+    background: border-box;
+    background: #ff9737;
 }
