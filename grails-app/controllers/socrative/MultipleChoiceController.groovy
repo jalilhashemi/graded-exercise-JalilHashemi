@@ -9,5 +9,9 @@ class MultipleChoiceController {
 
     }
 
+    def submit() {
+        render view: "submit"
+    }
+
 
 }
