@@ -4,9 +4,23 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'question.label', default: 'Question')}" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
+        <style>
+        form {
+            margin-top: 2em;
+            line-height: 2em;
+            width:60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+            textarea {
+                width: 100%;
+            }
+            input#questionerName {
+                width: 100%;
+            }
+        </style>
     </head>
-    <style>
-    </style>
+
     <body>
         <a href="#create-question" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 

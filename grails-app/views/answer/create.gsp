@@ -21,6 +21,7 @@
                 <li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
             </ul>
         </div>
+        <div id="centered">
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
@@ -40,5 +41,6 @@
                 </fieldset>
             </g:form>
         </div>
+    </div>
     </body>
 </html>

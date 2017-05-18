@@ -10,12 +10,10 @@
 
     <body>
 
-    <header>
     <a href="#show-answer" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
     <div id="show-answer" class="content scaffold-create" role="main">
         <h1>Show Answer</h1>
     </div>
-    </header>
 
         <div class="nav" role="navigation">
             <ul>
@@ -24,6 +22,7 @@
                 <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
             </ul>
         </div>
+    <div id="centered">
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>

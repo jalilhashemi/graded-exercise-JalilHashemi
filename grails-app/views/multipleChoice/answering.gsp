@@ -25,6 +25,7 @@
                 padding: 10px;
                 width:800px;
                 align-content: center;
+                border-radius: 0.3em;
             }
             input[type=checkbox]
             {

@@ -25,14 +25,14 @@
     </div>
 
 
-
+<div id="centered">
             <g:if test="${flash.message}">
                 <div class="message" role="status">${flash.message}</div>
             </g:if>
             <f:table collection="${questionList}" />
 
                 <g:paginate total="${questionCount ?: 0}" />
+</div>
             </div>
-        </div>
     </body>
 </html>

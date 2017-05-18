@@ -196,7 +196,7 @@ img {
 fieldset,
 .property-list {
     margin: 0.6em 1.25em 0 1.25em;
-    padding: 0.3em 1.8em 1.25em;
+    padding: 0.3em 1.8em 2.25em;
     position: relative;
     zoom: 1;
     border: none;
@@ -217,6 +217,9 @@ fieldset,
     color: #666666;
     text-align: right;
     /*width: 25%;*/
+    font-weight: bold;
+    color: white;
+
 }
 
 .fieldcontain .property-label {
@@ -372,7 +375,7 @@ input:invalid, select:invalid, textarea:invalid {
     background: #fff3f3;
     border-color: #ffaaaa;
     color: #cc0000;
-    width: 500px;
+    width: 100%;
 }
 
 input:invalid:focus, select:invalid:focus, textarea:invalid:focus {
@@ -386,8 +389,11 @@ input:invalid:focus, select:invalid:focus, textarea:invalid:focus {
 table {
     border-top: 1px solid #DFDFDF;
     border-collapse: collapse;
-    width: 100%;
+    width: 96%;
+    margin-top: 2em;
     margin-bottom: 1em;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 tr {
@@ -407,6 +413,7 @@ td, th {
     padding: 0.5em 0.6em;
     text-align: left;
     vertical-align: top;
+    border-bottom: 1px solid #ddd;
 }
 
 th {
@@ -452,16 +459,17 @@ th.desc a {
     background-image: url(../images/skin/sorted_desc.gif);
 }
 
-.odd {
-    background: #f7f7f7;
-}
+/*.odd {*/
+    /*background: #f7f7f7;*/
+/*}*/
 
-.even {
-    background: #ffffff;
-}
+/*.even {*/
+    /*background: #ffffff;*/
+/*}*/
 
 th:hover, tr:hover {
-    background: #79b94c;
+    background: #4490c2;
+    color: white;
 }
 
 /* PAGINATION */
@@ -588,6 +596,7 @@ img.grails-logo {
     margin-top:-10px;
 }
 
+/*FIRST AND SECOND PAGE*/
 
 #teacher{
     color: white;
@@ -641,4 +650,13 @@ img.grails-logo {
 #report:hover {
     background: border-box;
     background: #ff9737;
+}
+
+
+div#centered {
+    margin-top: 2em;
+    line-height: 2em;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }

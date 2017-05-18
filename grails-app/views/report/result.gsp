@@ -10,21 +10,22 @@
         background: #8bbed9;
     }
 
-    html, body {height:100%;}
-    html {display:table; margin: auto}
-    body {display:table-cell; text-align:center; vertical-align:middle;}
-
 
     form {
-        font-size: 2em;
-        margin: 2em;
-        line-height: 0.5em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
     }
+
+
     label {
         background: #4490c2;
         display: table;
         padding: 15px;
         width:800px;
+
+
     }
     </style>
 </head>
