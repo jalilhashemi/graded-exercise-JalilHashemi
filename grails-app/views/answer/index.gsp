@@ -21,10 +21,12 @@
                 <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
             </ul>
         </div>
+        <div id="centered">
             <g:if test="${flash.message}">
                 <div class="message" role="status">${flash.message}</div>
             </g:if>
             <f:table collection="${answerList}" />
         </div>
+    </div>
     </body>
 </html>

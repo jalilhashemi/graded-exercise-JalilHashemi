@@ -4,6 +4,15 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
+    <style>
+    input#answer {
+        width: 100%;
+    }
+    label {
+        display: table;
+        padding-bottom: 10px;
+    }
+    </style>
     </head>
     <body>
 
@@ -34,7 +43,16 @@
             </g:hasErrors>
             <g:form action="save">
                 <fieldset class="form">
-                    <f:all bean="answer"/>
+
+
+                    <div class="fieldcontain required">
+                        <label for="a">Possible answer
+                            <span class="required-indicator">*</span>
+                        </label><input type="text" name="a" value="" required="" maxlength="50" id="answer">
+                    </div>
+
+
+
                 </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />

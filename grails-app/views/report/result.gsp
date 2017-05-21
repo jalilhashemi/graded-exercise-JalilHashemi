@@ -6,15 +6,15 @@
     <title>result</title>
     <style>
     body {
-        margin: 0%;
         background: #8bbed9;
     }
 
 
     form {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 1.5em;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
         margin-top: 3em;
     }
 
@@ -22,8 +22,9 @@
     label {
         background: #4490c2;
         display: table;
-        padding: 15px;
-        width:800px;
+        padding: 10px;
+        width:100%;
+        border-radius: 0.3em;
 
 
     }

@@ -227,8 +227,10 @@ fieldset,
 }
 
 .fieldcontain .property-value {
-    display: block;
+    display: table;
     margin-left: 27%;
+    margin-left: 5%
+
 }
 
 label {

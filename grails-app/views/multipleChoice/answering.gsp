@@ -10,11 +10,9 @@
             }
             form {
                 font-size: 1.5em;
-                margin: 2em;
-                line-height: 0.5em;
-                width: 40em;
-                margin-left: auto;
-                margin-right: auto;
+                width: 60%;
+                margin-left: 20%;
+                margin-right: 20%;
             }
             label:hover {
                 background: #ff9737;
@@ -23,13 +21,12 @@
                 background: #4490c2;
                 display: table;
                 padding: 10px;
-                width:800px;
-                align-content: center;
+                width:100%;
                 border-radius: 0.3em;
             }
             input[type=checkbox]
             {
-                zoom: 2;
+                zoom: 1.5;
                 margin-right: 5px;
                 margin-bottom: 3px;
 
@@ -37,6 +34,31 @@
             h1 {
                 margin: 2em;
                 font-size: 2em;
+            }
+            #last {
+                background-color: transparent;
+                border: 0;
+                color: #666666;
+                cursor: pointer;
+
+                display: inline-block;
+                margin: 1em 0em 0em;
+                overflow: visible;
+                padding: 0.25em 0.7em;
+                text-decoration: none;
+
+                -moz-border-radius: 0.3em;
+                -webkit-border-radius: 0.3em;
+                border-radius: 0.3em;
+            }
+            #last:hover {
+                background-color: #ff9737;
+                color: #ffffff;
+                outline: none;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+                -moz-box-shadow: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
             }
         </style>
     </head>
@@ -51,7 +73,7 @@
             <g:each var="possibleAnswers" in="${multipleChoice}">
                 <label><input type="checkbox"/>${possibleAnswers.a}</label><br>
             </g:each>
-        <input type="submit" value="Submit">
+        <input id="last" type="submit" value="Submit">
 
     </g:form>
 

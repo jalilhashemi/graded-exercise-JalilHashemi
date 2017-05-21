@@ -4,6 +4,24 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'question.label', default: 'Question')}" />
         <title><g:message code="default.edit.label" args="[entityName]" /></title>
+
+        <style>
+        form {
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        label {
+            display: table;
+            padding-bottom: 10px;
+        }
+        input{
+            width: 100%;
+        }
+            input.save {
+                width: auto;
+            }
+        </style>
     </head>
     <body>
 
@@ -32,7 +50,7 @@
             </ul>
             </g:hasErrors>
             <g:form resource="${this.question}" method="PUT">
-                <g:hiddenField name="version" value="${this.question?.version}" />
+                <g:hiddenField name="version" value="${this.question?.version}" /><br>
                 <fieldset class="form">
                     <f:all bean="question"/>
                 </fieldset>

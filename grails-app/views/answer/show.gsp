@@ -5,8 +5,9 @@
         <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
         <title><g:message code="default.show.label" args="[entityName]" /></title>
 
+        <style>
+        </style>
     </head>
-
 
     <body>
 
