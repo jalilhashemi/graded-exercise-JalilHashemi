@@ -69,7 +69,6 @@
         <div>
             <h1>${questionView}</h1>
         </div>
-
             <g:each var="possibleAnswers" in="${multipleChoice}">
                 <label><input type="checkbox"/>${possibleAnswers.a}</label><br>
             </g:each>
