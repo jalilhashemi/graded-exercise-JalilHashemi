@@ -17,6 +17,9 @@
             label:hover {
                 background: #ff9737;
             }
+            label:focus {
+                background: red;
+            }
             label {
                 background: #4490c2;
                 display: table;
@@ -24,16 +27,18 @@
                 width:100%;
                 border-radius: 0.3em;
             }
-            input[type=checkbox]
+            input[type=radio]
             {
-                zoom: 1.5;
                 margin-right: 5px;
                 margin-bottom: 3px;
 
             }
             h1 {
-                margin: 2em;
+                margin: 2em 0em 2em 0em;
                 font-size: 2em;
+                text-align: center;
+
+
             }
             #last {
                 background-color: transparent;
@@ -70,7 +75,7 @@
             <h1>${questionView}</h1>
         </div>
             <g:each var="possibleAnswers" in="${multipleChoice}">
-                <label><input type="checkbox"/>${possibleAnswers.a}</label><br>
+                <label><input type="radio" name="multiplechoice"/>${possibleAnswers.a}</label><br>
             </g:each>
         <input id="last" type="submit" value="Submit">
 
