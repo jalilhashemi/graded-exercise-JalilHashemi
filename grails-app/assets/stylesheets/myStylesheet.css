@@ -74,8 +74,8 @@ h1.submit{
     font-size: 5em;
 }
 
-/*question -> create view*/
-
-
-
-/*question -> edit view*/
+/*index view*/
+div.quezReport{
+    padding: 0em 0em 2em 0em;
+    text-align: center;
+}

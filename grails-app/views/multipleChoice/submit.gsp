@@ -1,11 +1,9 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jalil
-  Date: 17.05.17
-  Time: 18:54
---%>
-
-<%@ page contentType="text/html;charset=UTF-8" %>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="layout" content="main" />
+    <meta charset="UTF-8"/>
+    <title>quizReport</title>
 <html>
 <head>
     <meta name="layout" content="main" />
