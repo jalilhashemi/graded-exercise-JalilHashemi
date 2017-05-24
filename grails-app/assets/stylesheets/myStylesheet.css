@@ -73,3 +73,18 @@ h1.submit{
     color: white;
     font-size: 5em;
 }
+
+/*question -> create view*/
+form.qestion-create {
+    margin-top: 2em;
+    line-height: 2em;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+textarea {
+    width: 100%;
+}
+input#questionerName {
+    width: 100%;
+}
