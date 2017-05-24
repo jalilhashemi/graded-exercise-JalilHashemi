@@ -9,9 +9,20 @@ class MultipleChoiceController {
 
     }
 
-    def submit() {
-        render view: "submit"
+    def create() {
+        String answerID = params.keySet().findAll{ String key -> key.startsWith("answer")}
+        def answer = Answer.get(answerID.substring(7,8))
+        answer.counter++
+        answer.save flush:true
+
+        render view:"submit"
     }
+
+
+//        def count() {
+//        Set<String> counter = params.keySet().findAll{ String key -> key.startsWith("answer")}
+//        render text: counter
+//    }
 
 
 }

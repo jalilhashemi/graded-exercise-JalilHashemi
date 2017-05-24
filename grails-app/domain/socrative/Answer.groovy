@@ -3,6 +3,7 @@ package socrative
 class Answer {
 
     String a
+    int counter
 
 
     static constraints = {

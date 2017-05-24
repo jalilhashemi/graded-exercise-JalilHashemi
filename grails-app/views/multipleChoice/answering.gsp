@@ -70,12 +70,13 @@
 
     <body>
     <header>Multiple choice</header>
-    <g:form action="submit">
+    <g:form action="create">
+    %{--<g:form action="count">--}%
         <div>
             <h1>${questionView}</h1>
         </div>
             <g:each var="possibleAnswers" in="${multipleChoice}">
-                <label><input type="radio" name="multiplechoice"/>${possibleAnswers.a}</label><br>
+                <label><input type="radio" name="answer${possibleAnswers.id}"/>${possibleAnswers.a}</label><br>
             </g:each>
         <input id="last" type="submit" value="Submit">
 
