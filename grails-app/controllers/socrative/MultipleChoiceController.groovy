@@ -2,11 +2,8 @@ package socrative
 
 class MultipleChoiceController {
 
-
     def answering() {
-
         render view: "answering", model: [questionView: Question.list().first(), multipleChoice: Answer.list()]
-
     }
 
     def create() {
@@ -17,12 +14,4 @@ class MultipleChoiceController {
 
         render view:"submit"
     }
-
-
-//        def count() {
-//        Set<String> counter = params.keySet().findAll{ String key -> key.startsWith("answer")}
-//        render text: counter
-//    }
-
-
 }

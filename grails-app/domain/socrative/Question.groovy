@@ -6,7 +6,7 @@ class Question {
     String question
 
     static constraints = {
-        questionerName(balnk: false, nullable: false, size: 5..50)
+        questionerName(blank: false, nullable: false, size: 5..50)
         question(blank: false, nullable: false, size: 20..500)
     }
 
