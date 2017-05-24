@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>Welcome to Socrative</header>
-    <div id="home">
+    <div class="home">
         <form action="/quizReport/index">
             <input type="submit" id="teacher" value="TEACHER" />
         </form>

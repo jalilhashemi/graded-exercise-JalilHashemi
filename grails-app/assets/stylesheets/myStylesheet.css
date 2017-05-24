@@ -1,4 +1,75 @@
-div#home{
+/*home view*/
+div.home{
     padding: 0em 0em 2em 0em;
     text-align: center;
+}
+
+/*answering view*/
+body.answering {
+    background: #8bbed9;
+}
+form.answering {
+    font-size: 1.5em;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+label.answering:hover {
+    background: #ff9737;
+}
+label.answering:focus {
+    background: red;
+}
+label.answering {
+    background: #4490c2;
+    display: table;
+    padding: 10px;
+    width:100%;
+    border-radius: 0.3em;
+}
+input[type=radio]
+{
+    margin-right: 5px;
+    margin-bottom: 3px;
+
+}
+h1.answering {
+    margin: 2em 0em 2em 0em;
+    font-size: 2em;
+    text-align: center;
+
+
+}
+#last {
+    background-color: transparent;
+    border: 0;
+    color: #666666;
+    cursor: pointer;
+
+    display: inline-block;
+    margin: 1em 0em 0em;
+    overflow: visible;
+    padding: 0.25em 0.7em;
+    text-decoration: none;
+
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+}
+#last:hover {
+    background-color: #ff9737;
+    color: #ffffff;
+    outline: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*submit view*/
+h1.submit{
+    margin-top: 3em;
+    text-align: center;
+    color: white;
+    font-size: 5em;
 }

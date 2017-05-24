@@ -10,19 +10,8 @@
 <head>
     <meta name="layout" content="main" />
     <title>submit</title>
-    <style>
-    h1{
-        margin-top: 3em;
-        text-align: center;
-        color: white;
-        font-size: 5em;
-    }
-
-    </style>
 </head>
-
 <body>
-<h1>Thank you very much for your answer</h1>
-
+    <h1 class="submit">Thank you very much for your answer</h1>
 </body>
 </html>
