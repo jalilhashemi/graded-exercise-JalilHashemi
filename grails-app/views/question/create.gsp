@@ -46,7 +46,7 @@
                 </div>
             </fieldset>
             <fieldset class="buttons">
-                <input type="submit" name="create" class="save" value="Create" id="create">
+                <input type="submit" name="create" class="save" value="Next" id="create">
             </fieldset>
         </form>
     </div>
