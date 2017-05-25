@@ -565,20 +565,23 @@ th:hover, tr:hover {
 .buttons .delete, .buttons .edit, .buttons .save {
     background-position: 0.7em center;
     background-repeat: no-repeat;
-    text-indent: 25px;
+    width: 120px;
+    background-color: #4490c2;
+    color: white;
+    text-align: center;
 }
 
-.buttons .delete {
-    background-image: url(../images/skin/database_delete.png);
-}
+/*.buttons .delete {*/
+    /*background-image: url(../images/skin/database_delete.png);*/
+/*}*/
 
-.buttons .edit {
-    background-image: url(../images/skin/database_edit.png);
-}
+/*.buttons .edit {*/
+    /*background-image: url(../images/skin/database_edit.png);*/
+/*}*/
 
-.buttons .save {
-    background-image: url(../images/skin/database_save.png);
-}
+/*.buttons .save {*/
+    /*background-image: url(../images/skin/database_save.png);*/
+/*}*/
 
 a.skip {
     position: absolute;

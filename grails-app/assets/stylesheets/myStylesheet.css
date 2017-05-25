@@ -98,3 +98,11 @@ label.result {
 .mybar{
     background-color: #ff9737;
 }
+
+/*button*/
+a.mybuttons {
+    width: 120px;
+    background-color: #4490c2;
+    text-align: center;
+    color: white;
+}
