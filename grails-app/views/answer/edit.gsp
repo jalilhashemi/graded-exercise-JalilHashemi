@@ -4,6 +4,11 @@
     <meta name="layout" content="main" />
     <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
     <title><g:message code="default.edit.label" args="[entityName]" /></title>
+    <style>
+        input {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <a href="#edit-answer" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -16,6 +21,7 @@
             <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
         </ul>
     </div>
+    <div id="centered">
         <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
         </g:if>
