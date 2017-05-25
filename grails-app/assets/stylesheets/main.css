@@ -215,8 +215,8 @@ fieldset,
 .fieldcontain label,
 .fieldcontain .property-label {
     color: #666666;
-    text-align: right;
-    /*width: 25%;*/
+    /*text-align: right;*/
+    width: 25%;
     font-weight: bold;
     color: white;
 
@@ -353,8 +353,8 @@ fieldset.embedded legend {
 }
 
 .message {
-    background: transparent url(../images/skin/information.png) 0.5em 50% no-repeat;
-    text-indent: 2.2em;
+    background: transparent;
+    text-align: center;
 }
 
 /* form fields with errors */
@@ -534,7 +534,7 @@ th:hover, tr:hover {
     color: #666666;
     cursor: pointer;
     display: inline-block;
-    margin: 0 0.25em 0;
+    margin: 0 1.42em 0 0;
     overflow: visible;
     padding: 0.25em 0.7em;
     text-decoration: none;

@@ -104,5 +104,6 @@ a.mybuttons {
     width: 120px;
     background-color: #4490c2;
     text-align: center;
+    margin: 0 1.42em 0 0;
     color: white;
 }
