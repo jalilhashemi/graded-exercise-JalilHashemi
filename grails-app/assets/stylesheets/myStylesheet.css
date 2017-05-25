@@ -41,17 +41,17 @@ h1.answering {
 
 }
 #last {
-    background-color: transparent;
+    background-color: #4490c2;
     border: 0;
-    color: #666666;
+    color: white;
     cursor: pointer;
-
+    font-size: 0.7em;
     display: inline-block;
     margin: 1em 0em 0em;
     overflow: visible;
     padding: 0.25em 0.7em;
     text-decoration: none;
-
+    width: 120px;
     -moz-border-radius: 0.3em;
     -webkit-border-radius: 0.3em;
     border-radius: 0.3em;
