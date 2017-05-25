@@ -15,7 +15,7 @@
         <ul>
             <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
             <li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-            <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+            <li></li>
         </ul>
     </div>
     <div id="centered">
@@ -25,6 +25,7 @@
         <f:display bean="answer" />
         <g:form resource="${this.answer}" method="DELETE">
             <fieldset class="buttons">
+                <g:link class="mybuttons" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link>
                 <g:link class="edit" action="edit" resource="${this.answer}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
                 <a href="/multipleChoice/answering" class="mybuttons">Preview</a>
                 <a href="/report/result" class="mybuttons">Report</a>
