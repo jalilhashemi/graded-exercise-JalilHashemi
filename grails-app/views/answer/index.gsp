@@ -4,6 +4,12 @@
     <meta name="layout" content="main" />
     <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
     <title><g:message code="default.list.label" args="[entityName]" /></title>
+<style>
+tr>td:last-child, tr>th:last-child {
+    padding-right: 1.25em;
+    display: none;
+}
+</style>
 </head>
 <body>
     <a href="#list-answer" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
