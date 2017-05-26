@@ -35,6 +35,15 @@
                 </g:eachError>
             </ul>
         </g:hasErrors>
+
+
+        <g:each var="possibleAnswers" in="${inPlace}">
+            <label class="showAnswer">${possibleAnswers.a}</label><br>
+        </g:each>
+
+
+
+
         <g:form action="save">
             <fieldset class="form">
                 <div class="fieldcontain required">

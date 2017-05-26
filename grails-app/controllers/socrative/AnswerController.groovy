@@ -15,7 +15,7 @@ class AnswerController {
 
     def show(Answer answer) {
         respond answer
-        render view: "create"
+        render view: "create", model: [inPlace: Answer.list()]
     }
 
     def create() {
