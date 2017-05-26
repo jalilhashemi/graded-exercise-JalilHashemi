@@ -115,6 +115,18 @@ a.mybuttons {
     background: border-box;
     background: #ff9737;
 }
+#noAnswer{
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 3.5em 0em 0em 0em;
+    font-size: 2em;
+    background: #4490c2;
+}
+#noAnswer:hover {
+    background: border-box;
+    background: #58b0f0;
+}
 #quiz{
     color: white;
     width: 15em;

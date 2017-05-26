@@ -10,7 +10,7 @@
     <div class="home">
         <h1 class="submit">There is no answer available!</h1>
         <form action="/home">
-            <input type="submit" id="student" value="GO BACK" />
+            <input type="submit" id="noAnswer" value="GO BACK" />
         </form>
     </div>
 </body>
