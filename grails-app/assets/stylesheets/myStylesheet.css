@@ -101,3 +101,79 @@ a.mybuttons {
     margin: 0 1.42em 0 0;
     color: white;
 }
+
+
+/*FIRST AND SECOND PAGE*/
+
+#teacher{
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 5em 0em 0em 0em;
+    font-size: 2em;
+    background: #da7f2f;
+}
+#teacher:hover {
+    background: border-box;
+    background: #ff9737;
+}
+
+
+#quiz{
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 5em 0em 0em 0em;
+    font-size: 2em;
+    background: #da7f2f;
+}
+#quiz:hover {
+    background: border-box;
+    background: #ff9737;
+}
+
+
+#student {
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 2em 0em 0em 0em;
+    font-size: 2em;
+    background: #4490c2;
+}
+#student:hover {
+    background: border-box;
+    background: #58b0f0;
+}
+#report {
+    color: white;
+    width: 15em;
+    height: 3em;
+    margin: 2em 0em 0em 0em;
+    font-size: 2em;
+    background: #da7f2f;
+}
+
+#report:hover {
+    background: border-box;
+    background: #ff9737;
+}
+
+
+div#centered {
+    margin-top: 2em;
+    line-height: 2em;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#reportDisabled {
+    color: black;
+    width: 15em;
+    height: 3em;
+    margin: 2em 0em 0em 0em;
+    font-size: 2em;
+    background: #d6d6d6;
+    border: solid 1px #808080;
+}
