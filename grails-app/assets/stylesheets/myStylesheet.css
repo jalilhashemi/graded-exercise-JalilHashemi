@@ -164,13 +164,13 @@ a.mybuttons {
     background: #ff9737;
 }
 #reportDisabled {
-    color: black;
+    color: #a8a8a8;
     width: 15em;
     height: 3em;
     margin: 2em 0em 0em 0em;
     font-size: 2em;
     background: #d6d6d6;
-    border: solid 1px #808080;
+    border: solid 1px #b0b0b0;
 }
 
 /*show views*/
