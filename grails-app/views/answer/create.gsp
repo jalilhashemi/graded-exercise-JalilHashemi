@@ -5,13 +5,38 @@
     <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
     <title><g:message code="default.create.label" args="[entityName]" /></title>
     <style>
-        input#answer {
-            width: 100%;
+        table {
+            border-top: none;
+            width: 90%;
+            margin: 0 5% 0 5%;
+            counter-reset: row-num;
+            cursor: default;
+            background: none;
         }
-        label {
-            display: table;
-            padding-bottom: 10px;
+        table tr {
+            counter-increment: row-num;
         }
+        table tr td:first-child::before {
+            content: "Answer " counter(row-num) ". ";
+        }
+        tr>td:first-child, tr>th:first-child {
+            padding-left: 1em;
+            margin: 20%;
+        }
+        tr>td:last-child, tr>th:last-child {
+            padding-right: 20em;
+        }
+
+        td, th {
+            border-bottom: 0.5px solid #4490c2;
+            color: rgba(0, 0, 0, 0.66);
+            line-height: 2em;
+        }
+
+        th:hover, tr:hover {
+            background: transparent;
+        }
+
     </style>
 </head>
 <body>
@@ -37,10 +62,18 @@
         </g:hasErrors>
 
 
-        <g:each var="possibleAnswers" in="${inPlace}">
-            <label class="showAnswer">${possibleAnswers.a}</label><br>
-        </g:each>
 
+    <table class="showAnswer">
+
+        <g:each var="possibleAnswers" in="${inPlace}">
+
+            <tr><td></td><td>
+            ${possibleAnswers.a}<br>
+
+            </td></tr>
+
+        </g:each>
+    </table>
 
 
 
