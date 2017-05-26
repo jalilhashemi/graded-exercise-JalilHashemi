@@ -13,17 +13,12 @@
             cursor: default;
             background: none;
         }
-
-
-
         table tr {
             counter-increment: row-num;
         }
         table tr td:first-child::before {
             content: "Answer " counter(row-num) ". ";
         }
-
-
         tr>td:first-child, tr>th:first-child {
             padding-left: 1em;
             margin: 20%;
@@ -37,7 +32,6 @@
             color: rgba(0, 0, 0, 0.66);
             line-height: 2em;
         }
-
         th:hover, tr:hover {
             background: transparent;
         }
@@ -45,8 +39,6 @@
         input#answer{
             width: 100%;
         }
-
-
     </style>
 </head>
 <body>
@@ -70,23 +62,13 @@
                 </g:eachError>
             </ul>
         </g:hasErrors>
-
-
-
-    <table class="showAnswer">
-
-        <g:each var="possibleAnswers" in="${inPlace}">
-
-            <tr><td></td><td>
-            ${possibleAnswers.a}<br>
-
-            </td></tr>
-
-        </g:each>
-    </table>
-
-
-
+        <table class="showAnswer">
+            <g:each var="possibleAnswers" in="${inPlace}">
+                <tr><td></td><td>
+                    ${possibleAnswers.a}<br>
+                </td></tr>
+            </g:each>
+        </table>
         <g:form action="save">
             <fieldset class="form">
                 <div class="fieldcontain required">
@@ -97,7 +79,7 @@
             </fieldset>
             <fieldset class="buttons">
                 <input type="submit" name="create" class="save" value="+" id="create">
-
+                <a href="/home" class="mybuttons">Finish</a>
             </fieldset>
         </g:form>
     </div>
