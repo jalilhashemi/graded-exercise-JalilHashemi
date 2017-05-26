@@ -11,16 +11,14 @@
         <form action="/question/create">
             <input type="submit" id="quiz" value="QUIZ" />
         </form>
-
         <form action="/report/result">
-        <g:if test="${counterZero}">
-            <input type="submit" id="report" value="REPORT" />
-        </g:if>
+            <g:if test="${counterZero}">
+                <input type="submit" id="report" value="REPORT" />
+            </g:if>
             <g:else>
                 <input type="submit" id="reportDisabled" value="REPORT" disabled="disabled"/>
             </g:else>
         </form>
-
     </div>
 </body>
 </html>

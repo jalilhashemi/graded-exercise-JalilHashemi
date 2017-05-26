@@ -4,14 +4,6 @@
     <meta name="layout" content="main" />
     <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
     <title><g:message code="default.show.label" args="[entityName]" /></title>
-    <style>
-        /*li #counter-label {*/
-            /*display: none;*/
-        /*}*/
-        /*.fieldcontain  {*/
-            /*display: none;*/
-        /*}*/
-    </style>
 </head>
 <body>
     <a href="#show-answer" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>

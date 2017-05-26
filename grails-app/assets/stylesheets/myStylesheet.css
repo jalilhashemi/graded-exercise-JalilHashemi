@@ -102,9 +102,7 @@ a.mybuttons {
     color: white;
 }
 
-
 /*FIRST AND SECOND PAGE*/
-
 #teacher{
     color: white;
     width: 15em;
@@ -117,8 +115,6 @@ a.mybuttons {
     background: border-box;
     background: #ff9737;
 }
-
-
 #quiz{
     color: white;
     width: 15em;
@@ -131,8 +127,6 @@ a.mybuttons {
     background: border-box;
     background: #ff9737;
 }
-
-
 #student {
     color: white;
     width: 15em;
@@ -153,21 +147,10 @@ a.mybuttons {
     font-size: 2em;
     background: #da7f2f;
 }
-
 #report:hover {
     background: border-box;
     background: #ff9737;
 }
-
-
-div#centered {
-    margin-top: 2em;
-    line-height: 2em;
-    width:60%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
 #reportDisabled {
     color: black;
     width: 15em;
@@ -176,4 +159,13 @@ div#centered {
     font-size: 2em;
     background: #d6d6d6;
     border: solid 1px #808080;
+}
+
+/*show views*/
+div#centered {
+    margin-top: 2em;
+    line-height: 2em;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }

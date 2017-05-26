@@ -11,16 +11,9 @@
         <form action="/quizReport/index">
             <input type="submit" id="teacher" value="TEACHER" />
         </form>
-
-        %{--<g:if test="${hasQuestions}" disabled="true">--}%
-
-            <form action="/multipleChoice/answering">
-                <input type="submit" id="student" value="STUDENT" />
-            </form>
-
-        %{--</g:if>--}%
-
-
+        <form action="/multipleChoice/answering">
+            <input type="submit" id="student" value="STUDENT" />
+        </form>
     </div>
 </body>
 </html>
