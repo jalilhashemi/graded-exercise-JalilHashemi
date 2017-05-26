@@ -13,6 +13,17 @@
             cursor: default;
             background: none;
         }
+
+
+
+        table tr {
+            counter-increment: row-num;
+        }
+        table tr td:first-child::before {
+            content: "Answer " counter(row-num) ". ";
+        }
+
+
         tr>td:first-child, tr>th:first-child {
             padding-left: 1em;
             margin: 20%;

@@ -4,6 +4,14 @@
     <meta name="layout" content="main" />
     <g:set var="entityName" value="${message(code: 'question.label', default: 'Question')}" />
     <title><g:message code="default.list.label" args="[entityName]" /></title>
+<style>
+table tr {
+    counter-increment: row-num;
+}
+table tr td:first-child::before {
+    content: "Question " counter(row-num) ". ";
+}
+</style>
 </head>
 <body>
     <a href="#index-question" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>

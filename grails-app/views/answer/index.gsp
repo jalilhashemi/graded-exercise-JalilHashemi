@@ -5,10 +5,16 @@
     <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
     <title><g:message code="default.list.label" args="[entityName]" /></title>
 <style>
-tr>td:last-child, tr>th:last-child {
-    padding-right: 1.25em;
-    display: none;
-}
+    tr>td:last-child, tr>th:last-child {
+        padding-right: 1.25em;
+        display: none;
+    }
+    table tr {
+        counter-increment: row-num;
+    }
+    table tr td:first-child::before {
+        content: "Answer " counter(row-num) ". ";
+    }
 </style>
 </head>
 <body>
