@@ -15,6 +15,7 @@ class AnswerController {
 
     def show(Answer answer) {
         respond answer
+        render view: "create"
     }
 
     def create() {
