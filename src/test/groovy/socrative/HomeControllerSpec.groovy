@@ -9,14 +9,12 @@ import spock.lang.Specification
 @TestFor(HomeController)
 class HomeControllerSpec extends Specification {
 
+    HomeController homeController
+
     def setup() {
+        homeController = new HomeController()
     }
 
     def cleanup() {
-    }
-
-    void "test something"() {
-        expect:"fix me"
-            true == false
     }
 }
