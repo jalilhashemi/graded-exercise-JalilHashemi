@@ -12,7 +12,9 @@
             <h1 class="answering">${questionView}</h1>
         </div>
         <g:each var="possibleAnswers" in="${multipleChoice}">
-            <label class="answering"><input type="radio" name="answer${possibleAnswers.id}"/>${possibleAnswers.a}</label><br>
+            <label class="answering">
+                <input type="checkbox" name="answer${possibleAnswers.id}"/>${possibleAnswers.a}
+            </label><br>
         </g:each>
         <input id="last" type="submit" value="Submit">
     </g:form>
