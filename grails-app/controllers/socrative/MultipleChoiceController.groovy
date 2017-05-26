@@ -5,7 +5,7 @@ class MultipleChoiceController {
     def answering() {
         def questions = Question.list()
         if (questions.isEmpty()) {
-
+            render view: "emptyAnswer"
         } else {
             render view: "answering", model: [questionView: questions.first(), multipleChoice: Answer.list()]
 
