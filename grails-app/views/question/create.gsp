@@ -33,12 +33,6 @@
         <form action="/question/save" method="post">
             <fieldset class="form">
                 <div class="fieldcontain required">
-                    <label for="questionerName">Questioner Name
-                        <span class="required-indicator">*</span>
-                    </label><br>
-                    <input type="text" name="questionerName" value="" required="" minlength="5" maxlength="50" id="questionerName">
-                </div>
-                <div class="fieldcontain required">
                 <label for="question">Question
                     <span class="required-indicator">*</span>
                 </label><br>
