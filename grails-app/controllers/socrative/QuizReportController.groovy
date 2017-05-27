@@ -13,9 +13,4 @@ class QuizReportController {
         }
         render view: "index", model: [counterZero: count]
     }
-
-
-
-
-
 }
