@@ -41,7 +41,6 @@ h1.answering {
     cursor: pointer;
     font-size: 0.7em;
     display: inline-block;
-    margin: 1em 0em 0em;
     overflow: visible;
     padding: 0.25em 0.7em;
     text-decoration: none;
@@ -49,6 +48,8 @@ h1.answering {
     -moz-border-radius: 0.3em;
     -webkit-border-radius: 0.3em;
     border-radius: 0.3em;
+    margin: 2.25em 1.5em 0 0;
+    text-align: center;
 }
 #last:hover {
     background-color: #ff9737;

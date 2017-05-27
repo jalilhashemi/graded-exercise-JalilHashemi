@@ -403,7 +403,6 @@ tr {
 }
 
 tr>td:first-child, tr>th:first-child {
-    padding-left: 1.25em;
 }
 
 tr>td:last-child, tr>th:last-child {
@@ -534,7 +533,7 @@ th:hover, tr:hover {
     color: #666666;
     cursor: pointer;
     display: inline-block;
-    margin: 0 1.42em 0 0;
+    margin: 0 1.5em 0 0;
     overflow: visible;
     padding: 0.25em 0.7em;
     text-decoration: none;

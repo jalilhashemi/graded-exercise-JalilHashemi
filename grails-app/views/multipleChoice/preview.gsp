@@ -16,6 +16,7 @@
             <input type="checkbox">${answers.a}
         </label><br>
     </g:each>
+    <a href="/answer/create" id="last">Back</a>
     <input id="last" type="submit" value="Finish">
 </form>
 </body>
