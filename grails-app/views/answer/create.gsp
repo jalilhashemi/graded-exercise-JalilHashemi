@@ -74,12 +74,12 @@
                 <div class="fieldcontain required">
                     <label for="a">Possible answer
                         <span class="required-indicator">*</span>
-                    </label><input type="text" name="a" value="" required="" maxlength="50" id="answer">
+                    </label><input type="text" name="a" value="" required="" maxlength="200" id="answer">
                 </div>
             </fieldset>
             <fieldset class="buttons">
-                <input type="submit" name="create" class="save" value="+" id="create">
-                <a href="/home" class="mybuttons">Finish</a>
+                <input type="submit" name="create" class="save" value="Save" id="create">
+                <a href="/multipleChoice/preview" class="mybuttons">Preview</a>
             </fieldset>
         </g:form>
     </div>

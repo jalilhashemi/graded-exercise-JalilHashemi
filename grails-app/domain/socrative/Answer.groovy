@@ -6,7 +6,7 @@ class Answer {
     int counter
 
     static constraints = {
-        a(nullable: false, blank: false, size: 2..50)
+        a(nullable: false, blank: false, size: 2..200)
         counter display:false
     }
 

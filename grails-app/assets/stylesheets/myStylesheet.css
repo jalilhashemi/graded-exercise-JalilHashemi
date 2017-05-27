@@ -181,3 +181,21 @@ div#centered {
     margin-left: 20%;
     margin-right: 20%;
 }
+
+
+label.answeringPreview:hover {
+    cursor: default;
+}
+label.answeringPreview {
+    background: #4490c2;
+    display: table;
+    padding: 10px;
+    width:100%;
+    border-radius: 0.3em;
+}
+input[type=checkbox] {
+    margin-right: 5px;
+    margin-bottom: 3px;
+    zoom: 1.5;
+    cursor: none;
+}

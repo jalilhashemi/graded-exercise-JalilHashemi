@@ -3,13 +3,16 @@ package socrative
 class MultipleChoiceController {
 
     def answering() {
-
         def questions = Question.list()
         if (questions.isEmpty()) {
             render view: "emptyAnswer"
         } else {
             render view: "answering", model: [questionView: questions.first(), multipleChoice: Answer.list()]
         }
+    }
+
+    def preview () {
+        render view: "preview", model: [questionPreview: Question.list().first(), multipleChoicePreview: Answer.list()]
     }
 
     def create() {
