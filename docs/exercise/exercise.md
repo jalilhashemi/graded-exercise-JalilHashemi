@@ -44,6 +44,7 @@ I'm particular proud of:
 
 I may not be able to use the grail environment properly but doing this project has given a very good self confidence
 and has proven to me that I at least can do some thing :)
+I thank you for giving us the opportunity to work and learn something new! 
 
 
 
