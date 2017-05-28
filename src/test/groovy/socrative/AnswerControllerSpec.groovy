@@ -40,11 +40,11 @@ class AnswerControllerSpec extends Specification {
     }
 
     @Unroll
-    void "test answer's max of 50 and min 2 characters" () {
+    void "test answer's max of 200 and min 2 characters" () {
         given:
         def model = new Answer()
         when: 'for a string of 51 characters'
-        String str = 'a' * 51
+        String str = 'a' * 201
         model.a = str
 
         then: 'name validation fails'
@@ -60,7 +60,7 @@ class AnswerControllerSpec extends Specification {
         model.errors['a'].code == 'size.toosmall'
 
         when: 'for a string of 50 characters'
-        str = 'a' * 50
+        str = 'a' * 200
         model.a = str
 
         then: 'name validation passes'
