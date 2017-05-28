@@ -8,6 +8,9 @@
 <body class="result">
     <header>Report</header>
     <form class="result">
+        <div>
+            <h1 class="answering">${showQuiz}</h1>
+        </div>
         <g:set var="counter" value="${0}"/>
         <g:each var="report" in="${showResult}">
             <g:set var="counter" value="${counter + report.counter.toInteger()}"/>
