@@ -6,7 +6,7 @@
     <title>home</title>
 </head>
 <body>
-    <header>Welcome to Socrative</header>
+    <header>Welcome to Socrative-light</header>
     <div class="home">
         <form action="/quizReport/index">
             <input type="submit" id="teacher" value="TEACHER" />

@@ -8,7 +8,7 @@
 <body>
     <header>Oops!</header>
     <div class="home">
-        <h1 class="submit">There is no answer available!</h1>
+        <h1 class="submit">There is no question available!</h1>
         <form action="/home">
             <input type="submit" id="noAnswer" value="GO BACK" />
         </form>
