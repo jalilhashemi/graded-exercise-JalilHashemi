@@ -26,7 +26,7 @@ Other comments:
 
 In home page there are two buttons:
 Teacher and Student
-+ Student button has functions
++ Student button has a function
     + If there is no question created then the button has another function and takes you to another page
     + If there is a question then it would lead you to the multiple choice page
 + Teacher button will lead you to the page where one as a teacher has the possibility to either create a question or 
@@ -43,9 +43,9 @@ he can have as many answer as he want. **there no limitaion**
 I'm particular proud of:
 
 I may not be able to use the grail environment properly but doing this project has given a very good self confidence
-and has proven to me that I at least can do some thing :)
+and has proven to me that I at least can do something :)
 I thank you for giving us the opportunity to work and learn something new! 
-
+I am proud of what we have learn and have done
 
 
 ## Project grading 
