@@ -42,16 +42,8 @@ header {
 
 body {
     background: #8bbed9;
-    /*color: #333333;*/
-    /*overflow-x: hidden; !* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide *!*/
-    /*-moz-box-shadow: 0 0 0.3em #4D8618;*/
-    /*-webkit-box-shadow: 0 0 0.3em #4D8618;*/
-    /*box-shadow: 0 0 0.3em #4D8618;*/
 }
 
-/*#grailsLogo {*/
-    /*background-color: #abbf78;*/
-/*}*/
 
 a:hover, a:active {
     outline: none; /* prevents outline in webkit on active links but retains it for tab focus */
@@ -87,43 +79,11 @@ img {
     padding: 0 0.25em;
     color: white;
     font-size: 2em;
-
-    /*background-color: white;*/
-    /*text-align: center;*/
-    /*padding: 0.5em;*/
-    /*font-size: 4em;*/
 }
 
 .scaffold-list h1 {
     border: none;
 }
-
-/*.footer {*/
-    /*background: #48802c;*/
-    /*color: #000;*/
-    /*clear: both;*/
-    /*font-size: 0.8em;*/
-    /*margin-top: 1.5em;*/
-    /*padding: 1em;*/
-    /*min-height: 1em;*/
-/*}*/
-
-/*.footer a {*/
-    /*color: #4D8618;*/
-/*}*/
-
-/*.spinner {*/
-    /*background: url(../images/spinner.gif) 50% 50% no-repeat transparent;*/
-    /*height: 16px;*/
-    /*width: 16px;*/
-    /*padding: 0.5em;*/
-    /*position: absolute;*/
-    /*right: 0;*/
-    /*top: 0;*/
-    /*text-indent: -9999px;*/
-/*}*/
-
-/* NAVIGATION MENU */
 
 .nav {
     zoom: 1;
@@ -217,7 +177,6 @@ fieldset,
 .fieldcontain label,
 .fieldcontain .property-label {
     color: #666666;
-    /*text-align: right;*/
     width: 25%;
     font-weight: bold;
     color: white;
@@ -462,14 +421,6 @@ th.desc a {
     background-image: url(../images/skin/sorted_desc.gif);
 }
 
-/*.odd {*/
-    /*background: #f7f7f7;*/
-/*}*/
-
-/*.even {*/
-    /*background: #ffffff;*/
-/*}*/
-
 th:hover, tr:hover {
     background: #4490c2;
     color: white;
@@ -517,17 +468,6 @@ th:hover, tr:hover {
 
 /* ACTION BUTTONS */
 
-/*.buttons {*/
-    /*background-color: #efefef;*/
-    /*overflow: hidden;*/
-    /*padding: 0.3em;*/
-    /*-moz-box-shadow: 0 0 3px 1px #aaaaaa;*/
-    /*-webkit-box-shadow: 0 0 3px 1px #aaaaaa;*/
-    /*box-shadow: 0 0 3px 1px #aaaaaa;*/
-    /*margin: 0.1em 0 0 0;*/
-    /*border: none;*/
-/*}*/
-
 .buttons input,
 .buttons a {
     background-color: transparent;
@@ -571,18 +511,6 @@ th:hover, tr:hover {
     color: white;
     text-align: center;
 }
-
-/*.buttons .delete {*/
-    /*background-image: url(../images/skin/database_delete.png);*/
-/*}*/
-
-/*.buttons .edit {*/
-    /*background-image: url(../images/skin/database_edit.png);*/
-/*}*/
-
-/*.buttons .save {*/
-    /*background-image: url(../images/skin/database_save.png);*/
-/*}*/
 
 a.skip {
     position: absolute;
