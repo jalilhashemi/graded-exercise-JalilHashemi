@@ -50,4 +50,30 @@ I am proud of what we have learn and have done
 
 ## Project grading 
 
-< to be filled by lecturer>
+Index.html: given and fully valid.
+
+The application works nicely.
+There is one error when submitting and answer without making a choice.
+Also, all answers always apply to all questions
+(not sure if that was intended).
+
+Functionality is socrative light with multiple questions and answers.
+The UI is form based but also has interesting interactive, in-place validation.
+
+Engineering:
+- the commit log is stellar
+- really good tests are given (even including some advanced use of Groovy)
+- html is mostly valid with minor glitches
+- comments are virtually absent
+- There is quite a lot of duplication in the views.
+  The use of layout or view templates might have helped.
+- good use of Web MVC
+
+I award two extra points for the particular effort that is clearly visible in
+the number of commits and the many days that they span over.
+
+Congratulation!
+You made a really nice distributed, multi-user, database-backed, interactive 
+Web application. I particularly like the ease-of-use.
+
+Grade: 6.0
